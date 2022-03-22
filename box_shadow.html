@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dev Blog</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <header>
+            <h1>
+                  Dev Blog
+            </h1>
+      </header>
+
+      <section class="article_box_item">
+            <h2 class="title_article_box">
+                  Propriedade <span>box-shadow</span> em CSS
+            </h2>
+
+            <p class="text_article_box">
+                  Podemos definir uma ao redor ou dentro de uma caixa.
+            </p>
+
+            <pre>
+                  <code>
+                        div {
+                              box-shadow: inset 10px 20px 15px;
+                        }
+                  </code>
+            </pre>
+
+            <div class="box_test">
+                  <div class="box_shadow_test">
+                  </div>
+            </div>
+
+            <p class="text_article_box">
+                  a representação da caixa ficará assim, onde <span>inset</span> indicará que a sombra ficará dentro da caixa, <span>10px</span> empurrará a sombra para o lado direito, <span>20px</span> empurrará a sombra para baixo e <span>15px</span> indicará o espalhamento da sombra dentro da caixa.
+            </p>
+
+            <pre>
+                  <code>
+                        div {
+                              box-shadow: 10px 20px 15px red;
+                        }
+                  </code>
+            </pre>
+
+            <div class="box_test">
+                  <div class="box_shadow_test1">
+                  </div>
+            </div>
+
+            <p class="text_article_box">
+                  a representação da caixa ficará assim, onde <span>10px</span> empurrará a sombra para o lado direito, <span>20px</span> empurrará a sombra para baixo, <span>15px</span> indicará o espalhamento da sombra dentro da caixa e <span>red</span> indicará a cor esolhida pelo dev, podendo ser hexadecimal, RGB ou pelo nome da cor em inglês.
+            </p>
+
+            <div class="button_article_box">
+                  <a href="index.html">Voltar</a>
+            </div>
+      </section>
+</body>
+</html>
